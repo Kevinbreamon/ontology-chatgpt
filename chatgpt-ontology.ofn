@@ -1,0 +1,370 @@
+Prefix(:=<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage>
+Annotation(rdfs:comment "This is an ontology on the use of chatGPT y several laboral industries."@en)
+
+Declaration(Class(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas>))
+Declaration(Class(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ContextoSocial>))
+Declaration(Class(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios>))
+Declaration(Class(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Requerimiento>))
+Declaration(Class(:Aplicaciones))
+Declaration(Class(:Beneficios))
+Declaration(Class(:ChatGPT))
+Declaration(Class(:Educación))
+Declaration(Class(:Industria))
+Declaration(Class(:Organizacion))
+Declaration(Class(:PropiedadIntelectual))
+Declaration(Class(:ProteccionDeDatos))
+Declaration(Class(:Salud))
+Declaration(Class(:Sectores))
+Declaration(Class(:Usuarios))
+Declaration(ObjectProperty(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#debeSer>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#flaquea>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#genera>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#permite>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#seAplicaEn>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#tieneAplicacion>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#tieneCaracteristica>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AhorroDeCostos>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AhorroDeTiempo>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Ambiguo>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AnalisisDeConjuntosDeDatos>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Aprendizaje>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AutomatizacionDeTareas>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Claro>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Cliente>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Comprension>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ControlDeVuelo>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Conversaciones>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Creatividad>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DemandasEspecializadas>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DerechosDeAutor>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DifusionDeInformacion>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#EmpresasManufactureras>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Especifico>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ExtraccionDeInformacion>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeContenido>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Grande>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdeasPertinentes>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdeasPrecisas>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdentificacionDeDeseos>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdentificacionDeNecesidades>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IndustriaAeroespacial>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#InformacionesFalsas>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#InteraccionesPersonalizadas>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#MPLN>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#MayorComprension>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Pequeño>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Plausible>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Productividad>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Prompt>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Propaganda>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Repetitivo>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RepuestasInformativas>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RespuestasPositivas>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RespuestasRapidas>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SatisfaccionDeNecesidades>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Satisfacción>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Seguridad>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SeguridadDeDatos>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Sesgo>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SimilarAlHumano>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TomaDeDecisiones>))
+Declaration(NamedIndividual(:Administrador))
+Declaration(NamedIndividual(:Analizar_datos))
+Declaration(NamedIndividual(:Asesorar))
+Declaration(NamedIndividual(:Automatizar_respuestas))
+Declaration(NamedIndividual(:Buscador))
+Declaration(NamedIndividual(:Capacidad_analitica))
+Declaration(NamedIndividual(:Chatbots))
+Declaration(NamedIndividual(:Cliente))
+Declaration(NamedIndividual(:Creacion_de_contenido))
+Declaration(NamedIndividual(:Difusión_erronea))
+Declaration(NamedIndividual(:Estudiante))
+Declaration(NamedIndividual(:Falta_de_autenticidad))
+Declaration(NamedIndividual(:Malinterpretación))
+Declaration(NamedIndividual(:Planificar))
+Declaration(NamedIndividual(:Profesor))
+Declaration(NamedIndividual(:Rendimiento))
+Declaration(NamedIndividual(:Resumir))
+Declaration(NamedIndividual(:Traducir_idiomas))
+Declaration(NamedIndividual(:Tutorias_personalizadas))
+Declaration(NamedIndividual(:Usuario))
+Declaration(NamedIndividual(:control_de_contenido))
+Declaration(NamedIndividual(:defraudar_expectativas))
+Declaration(NamedIndividual(:deshonestidad))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#seAplicaEn> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#seAplicaEn>)
+
+InverseObjectProperties(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#seAplicaEn> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#tieneAplicacion>)
+ObjectPropertyDomain(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#seAplicaEn> :Sectores)
+ObjectPropertyDomain(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#seAplicaEn> :Usuarios)
+ObjectPropertyRange(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#seAplicaEn> :Aplicaciones)
+
+# Object Property: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#tieneAplicacion> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#tieneAplicacion>)
+
+ObjectPropertyDomain(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#tieneAplicacion> :Aplicaciones)
+ObjectPropertyRange(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#tieneAplicacion> :Sectores)
+ObjectPropertyRange(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#tieneAplicacion> :Usuarios)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas>)
+
+SubClassOf(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> :ChatGPT)
+
+# Class: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ContextoSocial> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ContextoSocial>)
+
+SubClassOf(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ContextoSocial> :Sectores)
+
+# Class: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios>)
+
+SubClassOf(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios> :ChatGPT)
+
+# Class: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Requerimiento> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Requerimiento>)
+
+SubClassOf(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Requerimiento> :ChatGPT)
+
+# Class: :Aplicaciones (:Aplicaciones)
+
+SubClassOf(:Aplicaciones :ChatGPT)
+
+# Class: :Beneficios (:Beneficios)
+
+SubClassOf(:Beneficios :ChatGPT)
+
+# Class: :Educación (:Educación)
+
+SubClassOf(:Educación :Sectores)
+
+# Class: :Industria (:Industria)
+
+SubClassOf(:Industria :Sectores)
+
+# Class: :Organizacion (:Organizacion)
+
+SubClassOf(:Organizacion :Sectores)
+
+# Class: :PropiedadIntelectual (:PropiedadIntelectual)
+
+SubClassOf(:PropiedadIntelectual :Sectores)
+
+# Class: :ProteccionDeDatos (:ProteccionDeDatos)
+
+SubClassOf(:ProteccionDeDatos :Sectores)
+
+# Class: :Salud (:Salud)
+
+SubClassOf(:Salud :Sectores)
+
+# Class: :Sectores (:Sectores)
+
+SubClassOf(:Sectores :ChatGPT)
+
+# Class: :Usuarios (:Usuarios)
+
+SubClassOf(:Usuarios :ChatGPT)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AhorroDeCostos> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AhorroDeCostos>)
+
+ClassAssertion(:Beneficios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AhorroDeCostos>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AhorroDeTiempo> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AhorroDeTiempo>)
+
+ClassAssertion(:Beneficios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AhorroDeTiempo>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Ambiguo> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Ambiguo>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Ambiguo>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AnalisisDeConjuntosDeDatos> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AnalisisDeConjuntosDeDatos>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AnalisisDeConjuntosDeDatos>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Aprendizaje> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Aprendizaje>)
+
+ClassAssertion(:Beneficios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Aprendizaje>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AutomatizacionDeTareas> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AutomatizacionDeTareas>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AutomatizacionDeTareas>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Claro> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Claro>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Claro>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Cliente> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Cliente>)
+
+ClassAssertion(:Usuarios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Cliente>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Comprension> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Comprension>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Comprension>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ControlDeVuelo> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ControlDeVuelo>)
+
+ClassAssertion(:Beneficios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ControlDeVuelo>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Conversaciones> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Conversaciones>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Conversaciones>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Creatividad> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Creatividad>)
+
+ClassAssertion(:Beneficios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Creatividad>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DemandasEspecializadas> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DemandasEspecializadas>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Requerimiento> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DemandasEspecializadas>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DerechosDeAutor> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DerechosDeAutor>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DerechosDeAutor>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DifusionDeInformacion> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DifusionDeInformacion>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DifusionDeInformacion>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#EmpresasManufactureras> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#EmpresasManufactureras>)
+
+ClassAssertion(:Industria <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#EmpresasManufactureras>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Especifico> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Especifico>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Especifico>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ExtraccionDeInformacion> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ExtraccionDeInformacion>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ExtraccionDeInformacion>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeContenido> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeContenido>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeContenido>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Grande> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Grande>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Grande>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdeasPertinentes> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdeasPertinentes>)
+
+ClassAssertion(:Beneficios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdeasPertinentes>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdeasPrecisas> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdeasPrecisas>)
+
+ClassAssertion(:Beneficios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdeasPrecisas>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdentificacionDeDeseos> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdentificacionDeDeseos>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdentificacionDeDeseos>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdentificacionDeNecesidades> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdentificacionDeNecesidades>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IdentificacionDeNecesidades>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IndustriaAeroespacial> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IndustriaAeroespacial>)
+
+ClassAssertion(:Industria <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#IndustriaAeroespacial>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#InformacionesFalsas> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#InformacionesFalsas>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#InformacionesFalsas>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#InteraccionesPersonalizadas> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#InteraccionesPersonalizadas>)
+
+ClassAssertion(:Beneficios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#InteraccionesPersonalizadas>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#MPLN> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#MPLN>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Requerimiento> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#MPLN>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#MayorComprension> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#MayorComprension>)
+
+ClassAssertion(:Beneficios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#MayorComprension>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Pequeño> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Pequeño>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Pequeño>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Plausible> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Plausible>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Plausible>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Productividad> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Productividad>)
+
+ClassAssertion(:Beneficios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Productividad>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Prompt> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Prompt>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Requerimiento> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Prompt>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Propaganda> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Propaganda>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Propaganda>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Repetitivo> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Repetitivo>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Repetitivo>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RepuestasInformativas> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RepuestasInformativas>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RepuestasInformativas>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RespuestasPositivas> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RespuestasPositivas>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RespuestasPositivas>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RespuestasRapidas> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RespuestasRapidas>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RespuestasRapidas>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SatisfaccionDeNecesidades> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SatisfaccionDeNecesidades>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SatisfaccionDeNecesidades>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Satisfacción> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Satisfacción>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Satisfacción>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Seguridad> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Seguridad>)
+
+ClassAssertion(:Beneficios <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Seguridad>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SeguridadDeDatos> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SeguridadDeDatos>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SeguridadDeDatos>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Sesgo> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Sesgo>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Sesgo>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SimilarAlHumano> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SimilarAlHumano>)
+
+ClassAssertion(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#SimilarAlHumano>)
+
+# Individual: <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TomaDeDecisiones> (<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TomaDeDecisiones>)
+
+ClassAssertion(:Aplicaciones <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TomaDeDecisiones>)
+
+
+DisjointClasses(<http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas> <http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios> :Aplicaciones :Beneficios :Sectores :Usuarios)
+DisjointClasses(:Educación :Industria :Organizacion :PropiedadIntelectual :ProteccionDeDatos :Salud)
+)

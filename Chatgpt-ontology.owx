@@ -1,0 +1,574 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage">
+    <Prefix name="" IRI="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This is an ontology on the use of chatGPT y several laboral industries.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Caracteristicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContextoSocial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desafios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requerimiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Aplicaciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Beneficios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ChatGPT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Educación"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Industria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Organizacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/PropiedadIntelectual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ProteccionDeDatos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Salud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Sectores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Usuarios"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#debeSer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#flaquea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#genera"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#permite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#seAplicaEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAplicacion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneCaracteristica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AhorroDeCostos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AhorroDeTiempo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ambiguo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnalisisDeConjuntosDeDatos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aprendizaje"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AutomatizacionDeTareas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Claro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cliente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comprension"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ControlDeVuelo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conversaciones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Creatividad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DemandasEspecializadas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DerechosDeAutor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DifusionDeInformacion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EmpresasManufactureras"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Especifico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExtraccionDeInformacion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GeneracionDeContenido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grande"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IdeasPertinentes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IdeasPrecisas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IdentificacionDeDeseos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IdentificacionDeNecesidades"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IndustriaAeroespacial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InformacionesFalsas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InteraccionesPersonalizadas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPLN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MayorComprension"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pequeño"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plausible"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Productividad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prompt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Propaganda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Repetitivo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RepuestasInformativas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RespuestasPositivas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RespuestasRapidas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SatisfaccionDeNecesidades"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Satisfacción"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seguridad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeguridadDeDatos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sesgo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SimilarAlHumano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TomaDeDecisiones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Administrador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Analizar_datos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Asesorar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Automatizar_respuestas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Buscador"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Capacidad_analitica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Chatbots"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Cliente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Creacion_de_contenido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Difusión_erronea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Estudiante"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Falta_de_autenticidad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Malinterpretación"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Planificar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Profesor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Rendimiento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Resumir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Traducir_idiomas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Tutorias_personalizadas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Usuario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/control_de_contenido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/defraudar_expectativas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/deshonestidad"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Caracteristicas"/>
+        <Class IRI="/ChatGPT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContextoSocial"/>
+        <Class IRI="/Sectores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desafios"/>
+        <Class IRI="/ChatGPT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requerimiento"/>
+        <Class IRI="/ChatGPT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Aplicaciones"/>
+        <Class IRI="/ChatGPT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Beneficios"/>
+        <Class IRI="/ChatGPT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Educación"/>
+        <Class IRI="/Sectores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Industria"/>
+        <Class IRI="/Sectores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Organizacion"/>
+        <Class IRI="/Sectores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/PropiedadIntelectual"/>
+        <Class IRI="/Sectores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ProteccionDeDatos"/>
+        <Class IRI="/Sectores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Salud"/>
+        <Class IRI="/Sectores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sectores"/>
+        <Class IRI="/ChatGPT"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Usuarios"/>
+        <Class IRI="/ChatGPT"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Caracteristicas"/>
+        <Class IRI="#Desafios"/>
+        <Class IRI="/Aplicaciones"/>
+        <Class IRI="/Beneficios"/>
+        <Class IRI="/Sectores"/>
+        <Class IRI="/Usuarios"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Educación"/>
+        <Class IRI="/Industria"/>
+        <Class IRI="/Organizacion"/>
+        <Class IRI="/PropiedadIntelectual"/>
+        <Class IRI="/ProteccionDeDatos"/>
+        <Class IRI="/Salud"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="/Beneficios"/>
+        <NamedIndividual IRI="#AhorroDeCostos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Beneficios"/>
+        <NamedIndividual IRI="#AhorroDeTiempo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caracteristicas"/>
+        <NamedIndividual IRI="#Ambiguo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#AnalisisDeConjuntosDeDatos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Beneficios"/>
+        <NamedIndividual IRI="#Aprendizaje"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#AutomatizacionDeTareas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caracteristicas"/>
+        <NamedIndividual IRI="#Claro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Usuarios"/>
+        <NamedIndividual IRI="#Cliente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#Comprension"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Beneficios"/>
+        <NamedIndividual IRI="#ControlDeVuelo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#Conversaciones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Beneficios"/>
+        <NamedIndividual IRI="#Creatividad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requerimiento"/>
+        <NamedIndividual IRI="#DemandasEspecializadas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desafios"/>
+        <NamedIndividual IRI="#DerechosDeAutor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#DifusionDeInformacion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Industria"/>
+        <NamedIndividual IRI="#EmpresasManufactureras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caracteristicas"/>
+        <NamedIndividual IRI="#Especifico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#ExtraccionDeInformacion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#GeneracionDeContenido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caracteristicas"/>
+        <NamedIndividual IRI="#Grande"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Beneficios"/>
+        <NamedIndividual IRI="#IdeasPertinentes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Beneficios"/>
+        <NamedIndividual IRI="#IdeasPrecisas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#IdentificacionDeDeseos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#IdentificacionDeNecesidades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Industria"/>
+        <NamedIndividual IRI="#IndustriaAeroespacial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desafios"/>
+        <NamedIndividual IRI="#InformacionesFalsas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Beneficios"/>
+        <NamedIndividual IRI="#InteraccionesPersonalizadas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requerimiento"/>
+        <NamedIndividual IRI="#MPLN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Beneficios"/>
+        <NamedIndividual IRI="#MayorComprension"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caracteristicas"/>
+        <NamedIndividual IRI="#Pequeño"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caracteristicas"/>
+        <NamedIndividual IRI="#Plausible"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Beneficios"/>
+        <NamedIndividual IRI="#Productividad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Requerimiento"/>
+        <NamedIndividual IRI="#Prompt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desafios"/>
+        <NamedIndividual IRI="#Propaganda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caracteristicas"/>
+        <NamedIndividual IRI="#Repetitivo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#RepuestasInformativas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#RespuestasPositivas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#RespuestasRapidas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#SatisfaccionDeNecesidades"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caracteristicas"/>
+        <NamedIndividual IRI="#Satisfacción"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Beneficios"/>
+        <NamedIndividual IRI="#Seguridad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desafios"/>
+        <NamedIndividual IRI="#SeguridadDeDatos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Desafios"/>
+        <NamedIndividual IRI="#Sesgo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Caracteristicas"/>
+        <NamedIndividual IRI="#SimilarAlHumano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Aplicaciones"/>
+        <NamedIndividual IRI="#TomaDeDecisiones"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#seAplicaEn"/>
+        <ObjectProperty IRI="#tieneAplicacion"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seAplicaEn"/>
+        <Class IRI="/Sectores"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#seAplicaEn"/>
+        <Class IRI="/Usuarios"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAplicacion"/>
+        <Class IRI="/Aplicaciones"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#seAplicaEn"/>
+        <Class IRI="/Aplicaciones"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneAplicacion"/>
+        <Class IRI="/Sectores"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneAplicacion"/>
+        <Class IRI="/Usuarios"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
