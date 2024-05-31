@@ -254,6 +254,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AtencionAlClientePersonalizada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AtencionAlClientePersonalizada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AutomatizacionDeTareas -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#AutomatizacionDeTareas">
@@ -286,6 +294,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ConsultasPersonalizadas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ConsultasPersonalizadas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ControlDeVuelo -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#ControlDeVuelo">
@@ -297,6 +313,14 @@
     <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Conversaciones -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Conversaciones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#CoordinacionCitas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#CoordinacionCitas">
         <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
     </owl:NamedIndividual>
     
@@ -326,9 +350,31 @@
     
 
 
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DiagnosticoPersonalizado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DiagnosticoPersonalizado"/>
+    
+
+
     <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DifusionDeInformacion -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#DifusionDeInformacion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Doctor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Doctor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Usuarios"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#EducacionMedica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#EducacionMedica">
         <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
     </owl:NamedIndividual>
     
@@ -338,6 +384,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#EmpresasManufactureras">
         <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Industria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Enfemera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Enfemera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Usuarios"/>
     </owl:NamedIndividual>
     
 
@@ -358,9 +412,43 @@
     
 
 
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Falacia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Falacia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeContenido -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeContenido">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeDiagnosticoClinico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeDiagnosticoClinico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeDocumentos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeDocumentos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeImagenes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeImagenes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeTratamientoPersonalizado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#GeneracionDeTratamientoPersonalizado">
         <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
     </owl:NamedIndividual>
     
@@ -370,6 +458,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Grande">
         <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Hospital -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Hospital">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Salud"/>
     </owl:NamedIndividual>
     
 
@@ -430,6 +526,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#InterpretacionesDeImagenesMedicas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#InterpretacionesDeImagenesMedicas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#MPLN -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#MPLN">
@@ -442,6 +546,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#MayorComprension">
         <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Beneficios"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Pasciente -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Pasciente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Usuarios"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#PensamientoCritico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#PensamientoCritico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios"/>
     </owl:NamedIndividual>
     
 
@@ -459,6 +579,12 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Plausible">
         <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Caracteristicas"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#PreguntasYRespuesta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#PreguntasYRespuesta"/>
     
 
 
@@ -486,6 +612,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RazonamientoComplejo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RazonamientoComplejo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RecopilacionDeInformacion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RecopilacionDeInformacion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Repetitivo -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Repetitivo">
@@ -498,6 +638,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RepuestasInformativas">
         <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RespuestasIncorrectas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RespuestasIncorrectas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#Desafios"/>
     </owl:NamedIndividual>
     
 
@@ -515,6 +663,12 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RespuestasRapidas">
         <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RetroalimentacionInstantanea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#RetroalimentacionInstantanea"/>
     
 
 
@@ -566,11 +720,31 @@
     
 
 
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TRaduccionDeTexto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TRaduccionDeTexto"/>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TeleMedicina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TeleMedicina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Salud"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TomaDeDecisiones -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TomaDeDecisiones">
         <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TraduccionDeTexto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage#TraduccionDeTexto"/>
     
 
 
@@ -612,7 +786,9 @@
 
     <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Chatbots -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Chatbots"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Chatbots">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Aplicaciones"/>
+    </owl:NamedIndividual>
     
 
 
@@ -636,7 +812,9 @@
 
     <!-- http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Estudiante -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Estudiante"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Estudiante">
+        <rdf:type rdf:resource="http://www.semanticweb.org/18493/ontologies/2024/4/chatGPT_AI_usage/Usuarios"/>
+    </owl:NamedIndividual>
     
 
 
@@ -746,5 +924,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
