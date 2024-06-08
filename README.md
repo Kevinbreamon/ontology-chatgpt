@@ -1,2 +1,2 @@
 # ontology-chatgpt
-Aplicacioens ChatGP
+Aplicaciones, beneficios y limitaciones de ChatGP
